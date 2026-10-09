@@ -189,14 +189,15 @@ A recommended repository structure is:
 
 ```text
 House-Price-Prediction/
-│
+
 ├── House_price.ipynb
 ├── Housing.csv
 ├── README.md
 └── requirements.txt
-```
 
 ```
+
+---
 
 ## 📈 Key Insights from the Analysis
 
@@ -207,6 +208,7 @@ Based on the current notebook:
 - **Stories, parking, and bedrooms** have positive but weaker correlations with price.
 - The dataset contains **545 records with no missing values**.
 - The current model provides a reasonable baseline, but the R² score indicates that house price variation is not fully captured by the selected features.
+
 
 ---
 
