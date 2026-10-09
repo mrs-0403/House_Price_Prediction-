@@ -196,38 +196,7 @@ House-Price-Prediction/
 └── requirements.txt
 ```
 
----
-
-## 🚀 How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/House-Price-Prediction.git
-cd House-Price-Prediction
 ```
-
-### 2. Install dependencies
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn jupyter
-```
-
-### 3. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```text
-House_price.ipynb
-```
-
-Make sure `Housing.csv` is in the expected project directory before running the notebook.
-
----
 
 ## 📈 Key Insights from the Analysis
 
@@ -238,36 +207,6 @@ Based on the current notebook:
 - **Stories, parking, and bedrooms** have positive but weaker correlations with price.
 - The dataset contains **545 records with no missing values**.
 - The current model provides a reasonable baseline, but the R² score indicates that house price variation is not fully captured by the selected features.
-
----
-
-## 🔮 Future Improvements
-
-To make this project stronger from a data-science and portfolio perspective, the next iteration could include:
-
-1. **Use all relevant features** from the original dataset.
-2. Encode categorical variables such as `mainroad`, `guestroom`, `basement`, `airconditioning`, `prefarea`, and `furnishingstatus`.
-3. Compare multiple regression models such as:
-   - Ridge Regression
-   - Lasso Regression
-   - Random Forest Regressor
-   - Gradient Boosting
-4. Perform cross-validation and hyperparameter tuning.
-5. Add residual analysis and error diagnostics.
-6. Compare models using MAE, RMSE, and R².
-7. Save the best model with `joblib`.
-8. Build a **Streamlit web application** for interactive predictions.
-9. Add a deployment workflow so the model can be used as a live portfolio project.
-
----
-
-## 💡 Portfolio Value
-
-This project demonstrates practical skills in:
-
-**Data Cleaning → Exploratory Data Analysis → Feature Selection → Regression Modeling → Model Evaluation → Prediction**
-
-It can be used as a foundation for a larger **end-to-end machine learning application**.
 
 ---
 
@@ -284,7 +223,3 @@ Aspiring Data Analyst / Data Scientist focused on building practical machine lea
 This project uses a housing dataset containing property attributes and prices for regression analysis.
 
 ---
-
-## 📜 License
-
-This project is intended for learning, portfolio, and educational purposes.
